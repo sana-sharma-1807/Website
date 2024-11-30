@@ -1,0 +1,123 @@
+/* General Reset */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+    padding: 0 10px;
+}
+
+/* Header Section */
+header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+header .logo p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.1em;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    background: white;
+    color: #4CAF50;
+    transform: scale(1.1);
+}
+
+/* Section Styles */
+section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #4CAF50;
+    text-align: center;
+}
+
+section p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+section ul {
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 1.2em;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* Social Links */
+.socials .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.social-button {
+    background: #4CAF50;
+    color: white;
+    font-size: 1em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.social-button:hover {
+    background: white;
+    color: #4CAF50;
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 15px;
+    border-top: 5px solid #4CAF50;
+    margin-top: 40px;
+}
